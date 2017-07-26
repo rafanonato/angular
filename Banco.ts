@@ -1,9 +1,16 @@
+
+    import * as _ from 'lodash'
 class Banco{
   constructor(public nomeBanco:string, public agencia:number, public tipoC : number ){}
 
     consultarBanco(nomeBanco:string, agencia:number, tipoC:number){
     console.log(`PARABENS | Sua nova conta foi criada no ${this.nomeBanco} e ${this.agencia} o tipo da sua conta é ${this.tipoC}`)
     }
+
+criarTitulo(){
+  console.log()
+}
+
 
   validaBanco(){
     if(this.nomeBanco == null || this.agencia == null){

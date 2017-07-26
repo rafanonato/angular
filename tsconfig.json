@@ -1,6 +1,9 @@
 {
   "CompilerOptions":{
     "outDir":"js",
-    "noEmitOnError":true
+    "noEmitOnError":true,
+    "typeRoots":[
+      "node_modules/@types"
+    ]
   }
 }

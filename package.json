@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/rafanonato/angular/issues"
   },
-  "homepage": "https://github.com/rafanonato/angular#readme"
+  "homepage": "https://github.com/rafanonato/angular#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.4"
+  }
 }
