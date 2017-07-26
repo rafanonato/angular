@@ -1,17 +1,31 @@
 class Banco{
-  constructor(public nomeBanco:string, public agencia:number ){
-  }
-    consultarBanco(nomeBanco:string, agencia:number){
-    console.log(`PARABENS | Sua nova conta foi criada no ${this.nomeBanco} e ${this.agencia}`)
-  }
+  constructor(public nomeBanco:string, public agencia:number, public tipoC : number ){}
 
-  vallidaBanco(){
+    consultarBanco(nomeBanco:string, agencia:number, tipoC:number){
+    console.log(`PARABENS | Sua nova conta foi criada no ${this.nomeBanco} e ${this.agencia} o tipo da sua conta é ${this.tipoC}`)
+    }
+
+  validaBanco(){
     if(this.nomeBanco == null || this.agencia == null){
       console.log("ESCOLHA A O BANCO! ")
     }else{
       console.log("SUA CONTA FOI CRIADA!")
     }
   }
+
+  verificaConta(tipo : tipoConta) {
+      let tipoConta = 10
+
+      if(tipoConta == Math.random()){
+          console.log("Sua conta é Corrente")
+        }else{
+          console.log("Sua conta é Universitaria")
+        }
+      }
 }
 
-export {Banco}
+interface tipoConta{
+  tipoConta:number
+}
+
+export {Banco, tipoConta}

@@ -1,0 +1,23 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "Projeto Angular",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafanonato/angular.git"
+  },
+  "keywords": [
+    "Projeto",
+    "Angular"
+  ],
+  "author": "rafanonato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafanonato/angular/issues"
+  },
+  "homepage": "https://github.com/rafanonato/angular#readme"
+}

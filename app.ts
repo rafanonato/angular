@@ -1,5 +1,10 @@
 import {Banco} from './Banco'
+import {Usuario} from './Usuario'
 
+let novoBanco = new Banco("Bradesco", 2045, 10)
+    novoBanco.validaBanco()
+    novoBanco.consultarBanco()
+    novoBanco.verificaConta()
 
-let novoUsuario = new Banco("Santander", 2045)
-    novoUsuario.consultarBanco()
+let novoUsuario = new Usuario("Rafael Nonato", 333.222)
+    novoUsuario.cadastrarUsuario()
