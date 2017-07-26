@@ -1,0 +1,6 @@
+{
+  "CompilerOptions":{
+    "outDir":"js",
+    "noEmitOnError":true
+  }
+}
