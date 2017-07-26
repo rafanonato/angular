@@ -8,7 +8,7 @@ class Banco{
     }
 
 criarTitulo(){
-  console.log()
+  console.log(_.pad("BEM VINDO AO BANCO", 40, '='))
 }
 
 

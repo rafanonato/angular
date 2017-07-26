@@ -1,5 +1,6 @@
 "use strict";
 exports.__esModule = true;
+var _ = require("lodash");
 var Banco = (function () {
     function Banco(nomeBanco, agencia, tipoC) {
         this.nomeBanco = nomeBanco;
@@ -10,7 +11,7 @@ var Banco = (function () {
         console.log("PARABENS | Sua nova conta foi criada no " + this.nomeBanco + " e " + this.agencia + " o tipo da sua conta \u00E9 " + this.tipoC);
     };
     Banco.prototype.criarTitulo = function () {
-        console.log();
+        console.log(_.pad("BEM VINDO AO BANCO", 40, '='));
     };
     Banco.prototype.validaBanco = function () {
         if (this.nomeBanco == null || this.agencia == null) {
