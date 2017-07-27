@@ -11,7 +11,7 @@ var Banco = (function () {
         console.log("PARABENS | Sua nova conta foi criada no " + this.nomeBanco + " e " + this.agencia + " o tipo da sua conta \u00E9 " + this.tipoC);
     };
     Banco.prototype.criarTitulo = function () {
-        console.log(_.pad("BEM VINDO AO BANCO", 40, '='));
+        console.log(_.pad("BEM VINDO AO BANCO", 40, '=  '));
     };
     Banco.prototype.validaBanco = function () {
         if (this.nomeBanco == null || this.agencia == null) {

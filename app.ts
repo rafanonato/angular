@@ -4,6 +4,7 @@ import {Usuario} from './Usuario'
 
 let novoBanco = new Banco("Bradesco", 2045, 10)
     novoBanco.validaBanco()
+    novoBanco.criarTitulo()
     //novoBanco.consultarBanco()
     //novoBanco.verificaConta()
 

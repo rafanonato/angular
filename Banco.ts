@@ -8,9 +8,8 @@ class Banco{
     }
 
 criarTitulo(){
-  console.log(_.pad("BEM VINDO AO BANCO", 40, '='))
+  console.log(_.pad(" BEM VINDO AO BANCO ", 40, '=  '))
 }
-
 
   validaBanco(){
     if(this.nomeBanco == null || this.agencia == null){
